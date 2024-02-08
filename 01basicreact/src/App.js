@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import logo from './logo.svg';
 import './App.css';
 
@@ -20,6 +21,18 @@ function App() {
       </header>
     </div>
   );
+=======
+import Shiva from "./Shiva";
+
+function App() {
+  return(
+  <> 
+  <h3>Classic react app</h3>
+  <Shiva />
+  </>
+  
+  ) 
+>>>>>>> df330b3 (README.md pavan mofified)
 }
 
 export default App;

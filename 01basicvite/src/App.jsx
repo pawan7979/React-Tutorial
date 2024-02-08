@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
@@ -28,6 +29,18 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+=======
+import Shiva from "./Shiva"
+
+function App() {
+  
+
+  return (
+    <>                           
+    <h3> Lord Shiva </h3>
+    <h3> Lord Shiva </h3>
+    <Shiva />
+>>>>>>> df330b3 (README.md pavan mofified)
     </>
   )
 }
