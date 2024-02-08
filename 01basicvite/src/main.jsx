@@ -10,10 +10,23 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   </React.StrictMode>,
 =======
 
+const reactElement = {
+    type: 'a',
+    props: { href: "https://google.com", target: "_blank" },
+    child: 'This is lord shiva devote webpage'
+  }
+  function MyApp() {
+    return(
+        <div>
+        <h1>Lord Shiva</h1>
+    </div>
+    )
+    
+  }
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   
-    <App />
+    <MyApp />
 
 >>>>>>> df330b3 (README.md pavan mofified)
 )
